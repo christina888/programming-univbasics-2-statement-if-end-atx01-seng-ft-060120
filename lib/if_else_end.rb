@@ -23,7 +23,7 @@ puts "Oh, and always wear sunscreen!"
 #A: Pack an umbrella! B) Enjoy the fine day!
 #"Oh, and always wear sunscreen!"
 
-chance_of_rain = 0.2 
+chance_of_rain = 0.0000001
 if chance_of_rain <=0.25
   puts "Pack a sun shelter!"
 elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75) #here we are essentially using the double ampersand (OR operator) to say 'when the chance of rain is between 25%-75%'
