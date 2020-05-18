@@ -26,5 +26,8 @@ puts "Oh, and always wear sunscreen!"
 chance_of_rain = 0.2 
 if chance_of_rain <=0.25
   puts "Pack a sun shelter!"
-elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75) #here we are essentially using the double ampersand (OR operator) to say 'when the chance of rain is between 25%-75%'. in normal math, we could write it like this: 
-# 25% < chance of rain < 75%
+elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75) #here we are essentially using the double ampersand (OR operator) to say 'when the chance of rain is between 25%-75%'
+  puts "Pack an umbrella!"
+else 
+  puts "Stay home and read Hegel."
+end
