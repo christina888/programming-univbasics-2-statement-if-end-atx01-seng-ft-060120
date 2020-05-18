@@ -31,3 +31,4 @@ elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75) #here we are essentially 
 else 
   puts "Stay home and read Hegel."
 end
+
