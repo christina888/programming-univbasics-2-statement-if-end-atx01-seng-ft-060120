@@ -1,3 +1,4 @@
+#First solution
 
 current_second = Time.now
 current_second = current_second.to_i
